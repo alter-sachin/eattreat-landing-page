@@ -7,6 +7,7 @@ import { Link } from 'react-router';
 import TopCarousel from './TopCarousel';
 import TwoBrands from './TwoBrands';
 import FiveTags from './FiveTags';
+import CssMaskSlideShow from './CssMaskSlideShow';
 
 // actions
 import { getRecentPosts } from '../../actions/PostsAction';
@@ -33,6 +34,9 @@ class Main extends Component {
                 </div>
                 <div>
                     <FiveTags posts={this.props.posts} />
+                </div>
+                <div>
+                    {/* <CssMaskSlideShow /> */}
                 </div>
             </div>
         );
