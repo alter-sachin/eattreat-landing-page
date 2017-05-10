@@ -8,7 +8,7 @@ export default class Header extends Component {
 
     render() {
         return (
-            <Navbar inverse collapseOnSelect>
+            <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to='/'>EATREAT</Link>
