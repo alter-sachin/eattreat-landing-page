@@ -11,7 +11,7 @@ export default class TopCarousel extends Component {
                 {
                     this.props.posts.map( post => {
                         return (
-                            <Carousel.Item key={post.date}>
+                            <Carousel.Item key={post.id}>
                                 <Image
                                     src={post.thumbnail_images.full.url}
                                     responsive

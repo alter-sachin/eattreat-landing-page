@@ -6,6 +6,7 @@ import { Link } from 'react-router';
 // custom components used
 import TopCarousel from './TopCarousel';
 import TwoBrands from './TwoBrands';
+import FiveTags from './FiveTags';
 
 // actions
 import { getRecentPosts } from '../../actions/PostsAction';
@@ -29,6 +30,9 @@ class Main extends Component {
                 </div>
                 <div>
                     <TwoBrands />
+                </div>
+                <div>
+                    <FiveTags posts={this.props.posts} />
                 </div>
             </div>
         );
